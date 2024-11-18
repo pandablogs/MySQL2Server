@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "echo 'No build step necessary' && exit 0",
+    "build": "npm install",
     "start": "node server.js",
-    "preinstall": "npm install -g npm@8.19.4 && npm ci"
+    "preinstall": "npm install -g npm@9.8.1"
   },
-   "engines": {
+  "engines": {
     "node": "18.18.2",
     "npm": "9.x"
   },

@@ -8,7 +8,7 @@
   },
    "engines": {
     "node": "18.18.2",
-    "npm": "8.x"
+    "npm": "9.x"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
